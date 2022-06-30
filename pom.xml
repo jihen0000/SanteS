@@ -49,6 +49,12 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+  <groupId>com.sun.xml.ws</groupId>
+  <artifactId>jaxws-ri</artifactId>
+  <version>2.3.0</version>
+  <type>pom</type>
+</dependency>
+		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
